@@ -13,5 +13,5 @@ def hello_name(request, name=None):
         'flag': flag
     })
 
-def hello(request):
+def index(request):
     return render(request, 'lect1/index.html')
